@@ -1,0 +1,57 @@
+<! DOCTYPE html>
+<html lang="pt_BR">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<head>
+		<!-- Informações para o navegador-->
+			<title>Envio de Média</title>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" type="text/css" href="./css/style.css">			
+			<link rel="stylesheet" type="text/css" href="./css/imagem.css">
+			<script type="text/javascript" src="./js/script.js"></script>
+		
+	</head>
+	<body onload="mensagemInicial()">
+
+		<header> 
+			<h2> Registro de Média Semestral </h2>
+
+		</header>
+
+		<section>
+			<nav>
+				
+				<div id="imagem-nav">
+				<img src="./imagens/Jenny2.png" alt="Jenny">
+				</div>
+			</nav>
+			<article>
+				<h1> Insira seus dados:</h1>
+
+				<form method="get">
+					<div>
+						<label for="nome">Nome </label>
+					<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+					</div>
+					<div>
+						<label for="email">E-mail</label>
+					<input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+					</div>				
+					<div>
+						<label for="mensagem">Mensagem </label>
+						<textarea name="mensagem" id="mensagem" rows="5"></textarea> 
+					</div>
+					<div id="submit"> 
+					
+						<button onclick="calcularMedia()"> Calcular Média Parcial </button>
+						<input type="submit" class="enviar" onclick="enviar();" value="enviar">
+						
+
+					</div>
+				</form>
+		</article>
+		</section>
+
+		<footer> Desenvolvido por JNY </footer>			
+	</body>
+</html>

@@ -183,3 +183,92 @@ chamadas dinâmicas de algoritmos
 >   
 > }
 
+
+
+# DOM
+
+- Document Object Model  
+- Estrutura de um arquivo na web   
+- Representa documentos HTML ou XML  
+- Interface de programação  
+- Não é uma linguagem de programação  
+- É essencial para o JS entender o modelo de páginas web  
+
+## Para que serve?
+- Alterar a estrutura  
+- Alterar o estilo  
+- Alterar o conteúdo  
+
+## Como? 
+- Disponibilizando API (Aplication Programming Interface)  
+- Rotinas e padrões estabelecidos  
+- Métodos (funções)  
+- Árvore de elementos  
+- Seletores  
+- Objetos (nós / nodes)  
+
+> <html>  
+>   html : {
+>       head : {},  
+>        body : {  
+>          h1 : {  
+>            }  
+>          }  
+>        }  
+>   }  
+
+
+## DOM X JS
+- O DOMpodeserusado por outraslinguagens  
+- Sem o DOM o  JS  não teria noção da página  
+
+
+### Vantagens de usar JavaScript
+- código é executado por navegadores  
+- Tornar as páginas dinâmicas  
+- Evitarrequisiçõesdesnecessárias (performance)  
+- SPA (Single PAge Application)  
+- Reagir rapidamente a açoes dos usuários  
+
+### Desvantagens de usar JavaScript
+- código é executado por navegadores  
+- O conteúdo não fica visível para indexadores de busca  
+- Alterações em tempo de execução não ficam salvas no documento  
+
+### Exemplos
+seleciona objeto e disponibiliza (métodos)
+
+- document.getElementById(id)  
+- document.getElementByTagName('div')  
+- document.createElement('div')  
+- element.innerHTML  
+- element.style  
+- element.setAttribute('name')  
+- element.getAttribute('name')  
+- element.addEventListener()  
+- window.location  
+- windown.onload   
+- console.log()  
+- window.scrollTo()
+
+## Seletores
+- Tipos de seletores: Tag, Id, Class, Name, Query  
+- Callback  
+- getElementById()  
+- getElementsByTagName()   
+- getElementsByName()
+- getElementsByClassName()  
+
+## Formulários
+-   Evitar que o usuário passe dados incorretos  
+- Ou seja,   direcionar melhor o uso do sistema  
+- Proteger a injeçao de código malicioso  
+- Evitarerros de processamento  
+- Formatar  dados para facilitar o processamento  
+- Regex (expressões regulares)  
+
+
+
+
+
+
